@@ -1,0 +1,36 @@
+@font-face{
+	font-family : "BebasNeue";
+	src : url('BebasNeue.otf');
+	}
+body{
+	
+	display : block;
+	width : 1200px;
+	background-color: #000;
+}
+
+#canvas{
+	
+	display : inline block;
+	width : 600px;
+	float: left;
+}
+#settings{
+	font-family : "BebasNeue", Helvetica, Arial, sans-serif;
+	color : #ddd;
+	
+	width :400px;
+	float:left;
+	margin-left: 50px;
+}
+
+h1{
+	text-align: center;
+}
+
+.container{
+	display : block;
+	margin-top : 15px;
+}
+
+

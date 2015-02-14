@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Test</title>
+        <link rel="stylesheet" href="../Libraries/jquery-ui-1.11.2.custom/jquery-ui.min.css">
+        <link rel ="stylesheet" href="style.css">
+		<script type="text/javascript" src ="../Libraries/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+		<script type ="text/javascript" src ="../Libraries/jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+        <script type ="text/javascript" src="ui.js"></script>
+        
+        <script type="text/javascript" src="canvas.js"></script>
+       
+    </head>
+    
+    <body>
+        <canvas id ="canvas" width="600" height="600"></canvas>
+        <div id ="settings">
+        
+        <p><h1>Settings</h1></p>
+        <div class ="container">
+        Number of particles : 
+        
+        	<input id ="number" value ="100"/>
+        </div>
+   		<div class ="container">
+        Gravity : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        	<input id ="gravity" value = "9.81"/>
+       	</div>
+       	<div class = "container">
+        	<br/>Friction : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        	<input id ="friction" value = "0.007"/>
+        </div>
+        <div class ="container">
+        	<br/>Size :
+        	<div id ="size"></div>
+        </div>
+        	<div class ="container">
+        	Horizontal velocity
+        	<div id ="xvelocity"></div>
+        	</div>
+        	<div class ="container">
+ 
+        	Vertical velocity
+        	<div id ="yvelocity"></div>
+        	</div>
+        	</div>
+        </div>
+    </body>
+</html>
